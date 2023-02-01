@@ -11,7 +11,7 @@
 }
 
 .hero-intro {
-	width: 566px;
+	max-width: 566px;
 }
 .heading {
 	font-family: "Crete Round", sans-serif;
@@ -25,6 +25,7 @@
 	font-weight: 500;
 	font-size: 32px;
 	line-height: 44px;
+    color: #f4f5f7;
 }
 
 .para {
