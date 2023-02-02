@@ -6,7 +6,6 @@
 		list-style: none;
 		box-sizing: border-box;
 	}
-
 	#hero {
 		background: #1c1a19;
 	}
@@ -459,6 +458,30 @@
 	.col {
 		width: 30%;
 	}
+#hero {
+	background: #1c1a19;
+	background-image: url('./images/Group.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center right;
+}
+
+.hero-intro {
+	max-width: 500px;
+}
+.heading {
+	font-family: "Crete Round", sans-serif;
+	font-size: 72px;
+	color: #f55800;
+}
+
+.hd2 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 44px;
+	color: #FFF5E1;
 }
 
 @media (min-width: 1200px) { 
@@ -690,5 +713,49 @@
 		padding: 0 4%;
 		height: 100%;
 		background-size: cover;
+	}
+}
+
+.icn {
+	color: #dbd8d7;
+}
+
+@media screen and (min-width: 768px) {
+	.social {
+		width: 10% !important;
+	}
+	
+	.social ul {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 8.5rem;
+	}
+
+	.social ul li {
+		margin: 0.5rem 0;
+	}
+
+	#hero {
+		display: flex;
+		justify-content: start;
+		flex-direction: row-reverse;
+
+	}
+}
+
+@media screen and (max-width: 990px) {
+	#hero {
+		background-image: url('./images/hd1.png');
+		background-size: contain;
+		background-position: center right;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#hero {
+		background-image: url('./images/hd1.png');
+		background-size: 30%;
+		background-position: bottom right;
 	}
 }
